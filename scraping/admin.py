@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from scraping.models import City, Language, Vacancy
+
+admin.site.register(City)
+admin.site.register(Language)
+admin.site.register(Vacancy)
